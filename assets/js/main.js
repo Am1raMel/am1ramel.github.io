@@ -1,4 +1,6 @@
-
+function callbackName(response) {
+    document.getElementById('visits').innerText = response.value;
+}
 
 (function($) {
 
@@ -115,7 +117,5 @@
 					target: $body,
 					visibleClass: 'header-visible'
 				});
-function callbackName(response) {
-    document.getElementById('visits').innerText = response.value;
-}
+
 })(jQuery);
