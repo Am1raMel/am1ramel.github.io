@@ -1,8 +1,4 @@
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 (function($) {
 
@@ -119,5 +115,7 @@
 					target: $body,
 					visibleClass: 'header-visible'
 				});
-
+function callbackName(response) {
+    document.getElementById('visits').innerText = response.value;
+}
 })(jQuery);
