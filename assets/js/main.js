@@ -117,9 +117,6 @@ function callbackName(response) {
 					target: $body,
 					visibleClass: 'header-visible'
 				});
-
-})(jQuery);
-<script>
 // Get the modal
 var modal = document.getElementById('myModal');
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -142,5 +139,8 @@ modal.onclick = function() {
      }, 400);
     
  }    
+})(jQuery);
+
+
     
-</script>
+
